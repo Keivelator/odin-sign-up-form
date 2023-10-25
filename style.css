@@ -1,0 +1,36 @@
+@font-face {
+    font-family: norse-bold;
+    src: url(Norse-Bold.otf);
+}
+
+.page-container {
+    display: flex;
+}
+
+.left-page {
+    background-image: url(side-bg.jpg);
+    background-size: cover;
+    height: 800px;
+
+    flex: 3;
+}
+
+.logo {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 185px;
+}
+
+.logo span {
+    color: white;
+    font-size: 4rem;
+    font-family: norse-bold;
+}
+
+.right-page {
+    background-color: aqua;
+    flex: 5;
+}
